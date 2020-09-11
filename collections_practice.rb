@@ -5,3 +5,7 @@ end
 def sort_array_desc(num)
   num.sort.reverse
 end
+
+def sort_array_char_count(char)
+  char.sort.length
+end
