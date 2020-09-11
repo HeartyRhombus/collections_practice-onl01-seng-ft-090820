@@ -45,7 +45,7 @@ def add_s(array)
   new_array = []
   if array.index != 1
     array.each do |word|
-      word + "s"
+      (word + "s")
       new_array << word
     end
   end
