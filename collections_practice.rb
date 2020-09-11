@@ -24,8 +24,8 @@ end
 def kesha_maker(array)
   kesha_words = []
   array.each do |word|
-    ##asdf
-    kesha_words << asdf
+    #asdf
+    kesha_words << #asdf
   end
   kesha_words
 end
