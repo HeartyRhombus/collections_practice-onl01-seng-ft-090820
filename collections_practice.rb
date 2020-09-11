@@ -24,8 +24,10 @@ end
 def kesha_maker(array)
   kesha_words = []
   array.each do |word|
-    #asdf
-    kesha_words << #asdf
+    word.split(" ")
+    word[3] = "$"
+    word.join
+    kesha_words << word
   end
   kesha_words
 end
